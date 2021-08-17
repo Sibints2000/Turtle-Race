@@ -1,6 +1,6 @@
 from turtle import Turtle, Screen
 
-
+is_race_on = False
 screen = Screen()
 screen.setup(width=500, height=400)
 user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win the race? Enter the color: ")
@@ -12,6 +12,11 @@ for turtle_index in range(0, 6):
     tim.color(colors[turtle_index])
     tim.penup()
     tim.goto(x=-230, y=y_positions[turtle_index])
+
+if user_bet:
+    is_race_on = True
+
+while is_race_on:
 
 
 screen.exitonclick()
