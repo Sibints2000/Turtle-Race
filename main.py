@@ -11,5 +11,4 @@ tim.penup()
 tim.goto(x=-230, y=-100)
 
 
-
 screen.exitonclick()
