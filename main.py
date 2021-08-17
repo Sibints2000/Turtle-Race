@@ -8,7 +8,7 @@ user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win
 
 
 tim = Turtle()
-
+tim.goto(x=-230, y=-100)
 
 
 
