@@ -23,6 +23,10 @@ if user_bet:
 while is_race_on:
 
     for turtle in all_turtles:
+        if turtle.xcor() > 230:
+            print(turtle.color())
+
+
         rand_distance = random.randint(0, 10)
         turtle.forward(rand_distance)
 
