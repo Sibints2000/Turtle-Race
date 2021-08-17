@@ -7,9 +7,9 @@ user_bet = screen.textinput(title="Make your bet", prompt="Which turtle will win
 colors = ["red", "orange", "yellow", "green", "blue", "purple"]
 
 for turtle_index in range(0, 6):
-tim = Turtle(shape="turtle")
-tim.penup()
-tim.goto(x=-230, y=-100)
+    tim = Turtle(shape="turtle")
+    tim.penup()
+    tim.goto(x=-230, y=-100)
 
 
 screen.exitonclick()
